@@ -41,7 +41,6 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMajor(from: "0.0.6")),
         .package(url: "https://github.com/marmelroy/Zip.git", .upToNextMinor(from: "2.0.0")),
         .package(url: "https://github.com/SwiftDocOrg/GraphViz/", from: "0.1.0"),
-        .package(url: "https://github.com/realm/SwiftLint", .upToNextMinor(from: "0.40.0")),
     ],
     targets: [
         .target(
@@ -62,7 +61,7 @@ let package = Package(
         ),
         .target(
             name: "TuistKit",
-            dependencies: ["XcodeProj", "SwiftToolsSupport-auto", "ArgumentParser", "TuistSupport", "TuistGenerator", "TuistCache", "TuistAutomation", "ProjectDescription", "Signals", "RxSwift", "RxBlocking", "Checksum", "TuistLoader", "TuistInsights", "TuistScaffold", "TuistSigning", "TuistCloud", "GraphViz", "SwiftLintFramework"]
+            dependencies: ["XcodeProj", "SwiftToolsSupport-auto", "ArgumentParser", "TuistSupport", "TuistGenerator", "TuistCache", "TuistAutomation", "ProjectDescription", "Signals", "RxSwift", "RxBlocking", "Checksum", "TuistLoader", "TuistInsights", "TuistScaffold", "TuistSigning", "TuistCloud", "GraphViz"]
         ),
         .testTarget(
             name: "TuistKitTests",
