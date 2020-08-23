@@ -1,7 +1,7 @@
 import ProjectDescription
 
 /// Project helpers are functions that simplify the way you define your project.
-/// Share code to create targets, settings, dependencies,
+/// Share code to create targets, settings, dependencies, etc...
 /// Create your own conventions, e.g: a func that makes sure all shared targets are "static frameworks"
 
 extension Project {
